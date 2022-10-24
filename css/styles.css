@@ -73,7 +73,7 @@ body {
 /* nav */
 .nav-list-menu {
     display: flex;
-    margin: 92px;
+    margin-left: 92px;
     text-transform: capitalize;
 } 
 .menu-item {
@@ -355,6 +355,9 @@ body {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
+}
+.container {
+
 }
 /* список навигации*/
 .nav-list {
