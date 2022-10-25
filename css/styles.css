@@ -45,7 +45,7 @@ body {
     letter-spacing: 0.03em;
 }
 .container {
-    width: 1200px;
+    width: 1170px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -207,25 +207,13 @@ img {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-/* .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-} */
 .feature {
     width: 270px;
 }
 .list-feature {
     display: flex;
     gap: 30px;
+    justify-content: space-between;
 }
 .feature-head {
     font-weight: 700;
@@ -251,6 +239,7 @@ img {
 .image-list {
     margin-top: 50px;
     display: flex;
+    justify-content: space-between;
     gap: 30px;
 
 }
@@ -271,9 +260,15 @@ img {
 .list-team {
     display: flex;
     gap: 30px;
-    justify-content: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    
 }
-
+.list-team:last-child {
+}
+.team-description {
+    padding: 30px 0;
+}
 .team {
     background-color: var(--background-color-white);
     width: 270px;
@@ -299,6 +294,7 @@ img {
     display: flex;
     justify-content: center;
     text-transform: capitalize;
+    padding-top: 10px;
 }
 
 
@@ -310,7 +306,6 @@ img {
     display: flex;
     justify-content: center;
     gap: 8px;
-    padding-bottom: 34px;
 }
 .nav-list-link {
     text-transform: capitalize;
@@ -361,21 +356,34 @@ img {
     gap: 30px;
     justify-content: center;
     padding: 0;
+    margin-top: 50px;
 } 
 
 .item {
     width: 370px;
-    height: 404px;
     box-sizing: border-box;
     background: var(--background-color-white);
-    border: 1px solid #EEEEEE;
 }
 .head-list {
     text-transform: capitalize;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    
 }
 .paragraf-list {
     text-transform: capitalize;
     color: var(--main-text-color-gray);
+    padding-top: 4px;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
+.portfolio-description {
+    padding: 20px 24px;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
 }
 
 
@@ -395,6 +403,8 @@ img {
     font-size: 26px;
     line-height: 1.19;
     color: var(--logo-text-color-blue);
+    display: block;
+    padding-top: 60px;
 
 }
 
@@ -404,6 +414,7 @@ img {
 
 .address {
     font-style: normal;
+    margin-top: 20px;
 
 }
 
@@ -418,6 +429,9 @@ img {
 .address-link {
     line-height: 1.7;
     color: #FFFFFF;
+}
+.footer-mail-item {
+    margin-top: 9px;
 }
 
 .footer-mail-link {
@@ -434,7 +448,10 @@ img {
     ;
     color: var(--main-text-color-gray);
 }
-
+.footer-phone-item {
+    margin-top: 9px;
+    margin-bottom: 60px;
+}
 .address-link:hover,
 .address-link:focus,
 .footer-mail-link:hover,
