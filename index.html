@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="uk">
   <head>
-    <meta charset="UTF-8" >
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
-    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
-    <link rel="stylesheet" href="./css/styles.css" >
-    <link rel="preconnect" href="https://fonts.googleapis.com" >
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
-    >
+    />
   </head>
 
   <body>
-      <!--header-->
+    <!--header-->
     <header class="page-header">
       <div class="container header-container">
         <nav class="page-nav">
@@ -37,31 +40,32 @@
             </li>
           </ul>
         </nav>
-          <ul class="nav-contact-menu list">
-            <li class="mail-item">
-              <a class="mail-link link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="phone-item">
-              <a class="phone-number-link link" href="tel:+380961111111"
-                >+38 096 111 11 11</a
-              >
-            </li>
-          </ul>
+        <ul class="nav-contact-menu list">
+          <li class="mail-item">
+            <a class="mail-link link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="phone-item">
+            <a class="phone-number-link link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
       </div>
     </header>
-      <!--main section hero section-->
+    <!--main section hero section-->
     <main class="main">
-      <section class="section hero-section">
-        <div class="container">
+      <div class="container">
+        <section class="section hero-section">
+        
           <h1 class="hero-title">ефективні рішення для вашого бізнесу</h1>
           <button class="modal-button" type="button">Замовити послугу</button>
-        </div>
-      </section>
+        </section>
+      </div>
 
-        <!--main section  особливості-->
-      <section class="section feature-section">
+      <!--main section  особливості-->
+      <section class="section ">
         <div class="container">
           <h2 class="visually-hidden">наші особливості</h2>
           <ul class="list-feature list">
@@ -93,7 +97,11 @@
               </p>
             </li>
           </ul>
-              <!--main section  чім ми займаємося-->
+        </div>
+      </section>
+      <!--main section  чім ми займаємося-->
+      <section class="section we-do-section">
+        <div class="container">
           <h2 class="title-image-work">Чим ми займаємося</h2>
           <ul class="image-list list">
             <li>
@@ -101,27 +109,27 @@
                 src="./images/coding.jpg"
                 alt="Розробка програм"
                 width="370"
-              >
+              />
             </li>
             <li>
               <img
                 src="./images/mobile-dev.jpg"
                 alt="Розробка для мобільних пристроїв"
                 width="370"
-              >
+              />
             </li>
             <li>
               <img
                 src="./images/coloring.jpg"
                 alt="Розробка стилю"
                 width="370"
-              >
+              />
             </li>
           </ul>
         </div>
       </section>
 
-        <!--main section  наша команда-->
+      <!--main section  наша команда-->
 
       <section class="section team-section">
         <div class="container">
@@ -132,50 +140,46 @@
                 src="./images/img_team/man1.jpg"
                 alt="Ігор Дем'яненко"
                 width="270"
-              >
+              />
               <div class="team-description">
                 <h3 class="head-member-team">ігор дем'яненко</h3>
                 <p class="post-member-team" lang="en">product designer</p>
               </div>
-              
             </li>
             <li class="team">
               <img
                 src="./images/img_team/blondgerl.jpg"
                 alt="Ольга Рєпіна"
                 width="270"
-              >
+              />
               <div class="team-description">
                 <h3 class="head-member-team">ольга рєпіна</h3>
                 <p class="post-member-team" lang="en">frontend developer</p>
               </div>
-              
             </li>
             <li class="team">
               <img
                 src="./images/img_team/man2.jpg"
                 alt="Микола Тарасов"
                 width="270"
-              >
+              />
               <div class="team-description">
                 <h3 class="head-member-team">микола тарасов</h3>
                 <p class="post-member-team" lang="en">marketing</p>
               </div>
-              
             </li>
             <li class="team">
               <img
                 src="./images/img_team/man3.jpg"
                 alt="Михайло Єрмаков"
                 width="270"
-              >
+              />
               <div class="team-description">
                 <h3 class="head-member-team">михайло ермаков</h3>
                 <p class="post-member-team" lang="en">UI designer</p>
               </div>
             </li>
           </ul>
-        
         </div>
       </section>
     </main>

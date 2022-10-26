@@ -45,7 +45,7 @@ body {
     letter-spacing: 0.03em;
 }
 .container {
-    width: 1170px;
+    width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -83,7 +83,8 @@ nav a {
     line-height: 1.19;
     color: var(--logo-text-color-blue);
     margin-right: 94px;
-    padding: 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
 
 }
 .logo-black {
@@ -173,6 +174,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: none;
 
 
 }
@@ -205,10 +207,12 @@ img {
     justify-content: space-between;
 }
 .feature-head {
+    font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--main-text-color-black);
+    margin-bottom: 10px;
 }
 .deskription-feature {
     line-height: 1.71;
@@ -223,7 +227,6 @@ img {
     font-size: 36px;
     line-height: 1.7;
     color: var(--main-text-color-black);
-    margin-top: 94px;
 }
 .image-list {
     margin-top: 50px;
@@ -231,6 +234,9 @@ img {
     justify-content: space-between;
     gap: 30px;
 
+}
+.we-do-section {
+    padding-top: 0;
 }
 
 /*     Main section--Наша команда    */
@@ -283,7 +289,7 @@ img {
     display: flex;
     justify-content: center;
     text-transform: capitalize;
-    padding-top: 10px;
+    margin-top: 10px;
 }
 
 
@@ -384,6 +390,8 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .logo-footer {
@@ -393,7 +401,6 @@ img {
     line-height: 1.19;
     color: var(--logo-text-color-blue);
     display: block;
-    padding-top: 60px;
 
 }
 
@@ -439,7 +446,6 @@ img {
 }
 .footer-phone-item {
     margin-top: 9px;
-    margin-bottom: 60px;
 }
 .address-link:hover,
 .address-link:focus,
